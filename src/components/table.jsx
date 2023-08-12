@@ -14,7 +14,7 @@ const Table = () => {
  
    return (
      <div className="bg-[#FAFBFD] w-full h-full flex justify-center items-center absolute">
-       <div className="w-[90%] max-w-sm mt-48">
+       <div className="w-[90%] max-w-sm mt-32">
          <table className="w-full">
            <thead className="bg-gray-100">
              <tr>
