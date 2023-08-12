@@ -11,7 +11,7 @@ const welcomeSlide = () => {
           <img src={DrImage} alt="" className="h-[200px]" />
         </div>
         </div>
-        <div className="relative hidden lg:flex top-10 w-full h-full justify-center ml-72">
+        <div className="relative  hidden lg:flex top-10 h-full justify-center ml-[600px]">
           <img src={DrImage} alt="" className="h-[500px]" />
         </div>
         
