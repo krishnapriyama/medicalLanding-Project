@@ -31,16 +31,16 @@ const Table = () => {
               </th>
             </tr>
           </thead>
-          <tbody className="bg-white font-bold divide-y divide-gray-200">
+          <tbody className="bg-white  divide-y divide-gray-200">
             {data.map((datas) => (
               <tr key={datas.department}>
-                <td className="p-4 uppercase whitespace-nowrap text-center text-sm">
+                <td className="p-4 capitalize whitespace-nowrap text-center text-md">
                   {datas.department}
                 </td>
                 <td className="p-4 whitespace-nowrap text-center text-sm">
                   {datas.isAvailable === true ? (
                     <span className="font-semibold text-sm">
-                      {datas.name}
+                      Dr. {datas.name}
                     </span>
                   ) : (
                     <span className="text-red-500 font-bold text-sm">NO</span>
